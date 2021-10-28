@@ -1,0 +1,17 @@
+/*---font family Dancing_Script*/
+@font-face {
+	font-family: Uber;
+	src: url("../font/Uber/UberMoveMedium.otf");
+}
+@font-face {
+	font-family: Satisfy;
+	src: url("../font/Satisfy/Satisfy-Regular.ttf");
+}
+@font-face {
+	font-family: Righteous;
+	src: url("../font/Righteous/Righteous-Regular.ttf");
+}
+@font-face {
+	font-family: Lexend_Deca;
+	src: url("../font/Lexend_Deca/LexendDeca-Regular.ttf");
+}
