@@ -66,12 +66,17 @@ button {
 }
 @media screen (min-width: 702px) and (max-width: 909px) {
 	.container {
-		grid-template-columns: repeat(2, 40%);
+		grid-template-columns: repeat(2, 1fr);
 		
 	}
 	h1 {
 		width: 151px;
 		font-size: 25px;
+		
+	}
+	.error-paragraph {
+		width: 201px;
+		font-size: 12px;
 		
 	}
 }
