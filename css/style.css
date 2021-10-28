@@ -64,6 +64,22 @@ button {
 	color: #fff;
 	background: #333333;
 }
+@media screen (min-width: 702px) and (max-width: 909px) {
+	.container {
+		grid-template-columns: repeat(2, 400px);
+		margin: 0
+	}
+	h1 {
+		width: 151px;
+		font-size: 25px;
+		
+	}
+	.error-paragraph {
+		width: 201px;
+		font-size: 12px;
+		
+	}
+}
 
 @media screen and (max-width: 700px) {
 	.container {
@@ -92,21 +108,5 @@ button {
 	}
 	.error-content {
 		padding-left: 2rem;
-	}
-}
-@media screen (min-width: 702px) and (max-width: 909px) {
-	.container {
-		grid-template-columns: repeat(2, 400px);
-		margin: 0
-	}
-	h1 {
-		width: 151px;
-		font-size: 25px;
-		
-	}
-	.error-paragraph {
-		width: 201px;
-		font-size: 12px;
-		
 	}
 }
